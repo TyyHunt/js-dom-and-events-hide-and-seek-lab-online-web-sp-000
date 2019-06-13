@@ -9,5 +9,5 @@ function nestedTarget() {
 function increaseRankBy(n) {
   let subject = document.querySelectorAll('div.ranked-list li')
 
-  return subject
+  return subject + n
 }
